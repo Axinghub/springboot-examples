@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: spirng-boot-mail
+  mail:
+    host: smtp.163.com
+    username: zhang_zi_di@163.com
+    password: zhangzidi163
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          timeout: 25000
+          ssl.enable: true
+          socketFactory.class: javax.net.ssl.SSLSocketFactory
+          starttls.enable: true
+          socketFactory.port: 465　
+          port: 465
+
+
+mail:
+  fromMail :
+    addr : zhang_zi_di@163.com
